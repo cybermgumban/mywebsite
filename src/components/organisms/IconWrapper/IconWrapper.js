@@ -5,7 +5,7 @@ const IconWrapperStyle = styled.div`
     position: relative;
     /* margin-left: 300px;
     margin-right: 300px; */
-    margin-bottom: auto;
+    margin-bottom: 95px;
     text-align: center;
     border-top: 1px solid black;
 `

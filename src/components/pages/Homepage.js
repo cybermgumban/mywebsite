@@ -8,21 +8,19 @@ import whitebackground from "../assets/whitebackground.jpg";
 import portfolio from '../assets/portfolio.png';
 import resume from '../assets/resume.png';
 import contact from '../assets/contact.png';
+import Footer from '../atoms/Footer/Footer'
 
 const Wrapper = styled.div`
     height: 100%;
     width: 100%;
     @media screen {
         background-image: url(${whitebackground});
-        background-position: 100%;
+        background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
     } 
 `
-
-// backgroundImage: `url(${whitebackground})`
-
 const Homepage = (props) => {
     return (
         <Wrapper>
@@ -34,6 +32,7 @@ const Homepage = (props) => {
                 <Icon imgSrc={resume} label={"Resume"}/>
                 <Icon imgSrc={contact} label={"Contact"}/>
             </IconWrapper>
+            <Footer />
         </Wrapper>
     );
 };
