@@ -5,9 +5,9 @@ const IconWrapperStyle = styled.div`
     position: relative;
     /* margin-left: 300px;
     margin-right: 300px; */
-    margin-bottom: 95px;
+    margin-bottom: 112px;
     text-align: center;
-    border-top: 1px solid black;
+    /* border-top: 1px solid black; */
 `
 
 const IconWrapper = (props) => {
