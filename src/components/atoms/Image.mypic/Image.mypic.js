@@ -8,14 +8,14 @@ const ImageWrapper = styled.img`
     height: auto;
     width: 300px;
     border-radius: 50%;
-    border-style: solid;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px;
+    margin: auto;
+    padding: 30px;
 `
 const ImageMyPic = (props) => {
     return (
-        <ImageWrapper src={mypic} alt="mypic" />
+        <div>
+            <ImageWrapper src={mypic} alt="mypic" />
+        </div>
     );
 };
 
