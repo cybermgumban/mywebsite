@@ -5,7 +5,7 @@ const ButtonWrapper = styled.button`
     height: 90px;
     width: 90px;
     border-radius: 50%;
-    opacity: 0.8;
+    opacity: 1;
     outline : none;
 `
 

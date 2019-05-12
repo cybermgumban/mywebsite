@@ -5,6 +5,7 @@ const LabelWrapper = styled.div`
     text-align: center;
     margin: auto;
     font-family: 'Trebuchet MS';
+    color: white;
 `
 
 const Label = (props) => {

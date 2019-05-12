@@ -2,8 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 
 const DividerWrapper = styled.hr`
-    margin-left: 380px;
-    margin-right: 380px;
+    margin-left: 350px;
+    margin-right: 350px;
 `
 
 export const Divider = () => {
