@@ -5,9 +5,9 @@ const ButtonWrapper = styled.button`
     height: 90px;
     width: 90px;
     border-radius: 50%;
-    border: 1.2px solid black;
     opacity: 0.8;
     box-shadow: 0px 5px 10px grey;
+    outline: none;
 `
 
 const ImageWrapper = styled.img`
