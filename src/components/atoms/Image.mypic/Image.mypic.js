@@ -9,7 +9,10 @@ const ImageWrapper = styled.img`
     width: 300px;
     border-radius: 50%;
     margin: auto;
-    padding: 30px;
+    margin-top: 30px;
+    border: 1.5px solid black;    
+    box-shadow: 0px 5px 10px grey;
+
 `
 const ImageMyPic = (props) => {
     return (
