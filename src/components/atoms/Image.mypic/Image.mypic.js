@@ -2,6 +2,10 @@ import React from 'react';
 import mypic from '../../assets/mypic.png';
 import styled from 'styled-components';
 
+const DivWrapper = styled.div`
+    padding-top: 30px;
+`
+
 const ImageWrapper = styled.img`
     position: relative;
     display: block;
@@ -16,9 +20,9 @@ const ImageWrapper = styled.img`
 `
 const ImageMyPic = (props) => {
     return (
-        <div>
+        <DivWrapper>
             <ImageWrapper src={mypic} alt="mypic" />
-        </div>
+        </DivWrapper>
     );
 };
 

@@ -5,11 +5,10 @@ import Label from '../atoms/Label/Label.js';
 import {Divider} from "../atoms/Divider/Divider";
 import IconWrapper from '../organisms/IconWrapper/IconWrapper';
 import Icon from '../molecules/Icon/Icon';
-import whitebackground from "../assets/whitebackground2.jpg";
+import whitebackground from "../assets/whitebackground.jpg";
 import portfolio from '../assets/portfolio.png';
 import resume from '../assets/resume.png';
 import contact from '../assets/contact.png';
-import Footer from '../atoms/Footer/Footer'
 
 const Wrapper = styled.div`
     height: 100%;
@@ -34,7 +33,6 @@ const Homepage = (props) => {
                 <Icon imgSrc={resume} label={"Resume"}/>
                 <Icon imgSrc={contact} label={"Contact"}/>
             </IconWrapper>
-            <Footer />
         </Wrapper>
     );
 };

@@ -6,8 +6,7 @@ const ButtonWrapper = styled.button`
     width: 90px;
     border-radius: 50%;
     opacity: 0.8;
-    box-shadow: 0px 5px 10px grey;
-    outline: none;
+    outline : none;
 `
 
 const ImageWrapper = styled.img`
