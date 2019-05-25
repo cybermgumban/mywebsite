@@ -2,11 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 
 const ButtonLabelWrapper = styled.div`
-    font-weight: bold;
-    font-size: 20px;
-    margin-top: 20px;
-    font-family: 'Trebuchet MS';
+    text-align: center;
     color: white;
+    margin-top: 10px;
 `
 
 const ButtonLabel = (props) => {
