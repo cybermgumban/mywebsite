@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import {BREAKPOINTS} from '../../_core/breakpoints'
 
 const ButtonWrapper = styled.button`
     height: 70px;
@@ -7,8 +8,11 @@ const ButtonWrapper = styled.button`
     border-radius: 50%;
     opacity: 1;
     outline : none;
-    margin: auto 50px;
+    margin: 0 15px;
     background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+    @media (min-width: ${BREAKPOINTS.SMALL}) {
+        margin: 0 70px;
+    }
 `
 
 const ImageWrapper = styled.img`

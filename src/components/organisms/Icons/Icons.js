@@ -16,7 +16,7 @@ const IconWrapper = styled.div`
     justify-content: center;
 `
 
-const Icons = () => {
+const Icons = (props) => {
     return (
         <IconWrapper>
             <Icon label={"Portfolio"} imgSrc={portfolio}/>
