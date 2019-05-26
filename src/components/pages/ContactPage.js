@@ -11,7 +11,7 @@ const ContactPageWrapper = styled.div`
     }
 `
 
-const InsideWrapper = styled.form`
+const FormWrapper = styled.form`
     display: flex;
     flex-direction: column;
 
@@ -28,7 +28,7 @@ const InsideWrapper = styled.form`
     }
 
     & > button {
-        border-radius: 5px;
+        border-radius: 7px;
         height: 3vh;
         width: 10vh;
         align-self: center;
@@ -45,14 +45,12 @@ const ContactPage = () => {
     return (
         <ContactPageWrapper>
             <h1>Contact</h1>
-            <div>
-                <InsideWrapper>
-                    <input placeholder="Name"/>
-                    <input placeholder="Subject"/>
-                    <textarea placeholder="Message"/>
-                    <button>Submit</button>
-                </InsideWrapper>
-            </div>
+            <FormWrapper>
+                <input placeholder="Name"/>
+                <input placeholder="Subject"/>
+                <textarea placeholder="Message"/>
+                <button>Submit</button>
+            </FormWrapper>
         </ContactPageWrapper>
     )
 }
