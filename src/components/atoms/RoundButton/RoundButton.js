@@ -3,8 +3,8 @@ import styled from 'styled-components';
 import {BREAKPOINTS} from '../../_core/breakpoints'
 
 const ButtonWrapper = styled.button`
-    height: 70px;
-    width: 70px;
+    height: 60px;
+    width: 60px;
     border-radius: 50%;
     opacity: 1;
     outline : none;
