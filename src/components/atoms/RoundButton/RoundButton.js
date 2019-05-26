@@ -13,6 +13,10 @@ const ButtonWrapper = styled.button`
     @media (min-width: ${BREAKPOINTS.SMALL}) {
         margin: 0 70px;
     }
+
+    &:hover{
+        background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
+    }
 `
 
 const ImageWrapper = styled.img`
