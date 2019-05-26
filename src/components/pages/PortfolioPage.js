@@ -36,7 +36,8 @@ const PortfolioPageWrapper = styled.div`
 
     & > h1 {
         text-align: center;
-        margin-top: 20px;
+        margin: 0;
+        padding: 20px;
     }
 `
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import {BREAKPOINTS} from '../../_core/breakpoints'
 
 const OutsideWrapper = styled.div`
     display: flex;
@@ -14,6 +15,7 @@ const InsideWrapper = styled.div`
 const ImageWrapper = styled.img`
     margin: 20px;
     border: 1px solid grey;
+
 `
 
 const PortfolioItem = (props) => {
