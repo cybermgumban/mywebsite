@@ -25,6 +25,7 @@ const FormWrapper = styled.form`
 
     & > textarea {
         height: 10vh;
+        resize: vertical;
     }
 
     & > button {
@@ -45,10 +46,11 @@ const ContactPage = () => {
     return (
         <ContactPageWrapper>
             <h1>Contact</h1>
-            <FormWrapper>
-                <input placeholder="Name"/>
-                <input placeholder="Subject"/>
-                <textarea placeholder="Message"/>
+            <FormWrapper action="https://formspree.io/mgumban@cybermgumban.com" method="POST">
+                <input placeholder="Your Name..." name="name" required/>
+                <input type="email" placeholder="Your Email..." name="name" required/>
+                <input placeholder="Subject..." name="name" required/>
+                <textarea placeholder="Message..." name="name" required/>
                 <button>Submit</button>
             </FormWrapper>
         </ContactPageWrapper>
