@@ -17,7 +17,7 @@ const FIXTURES = {
         },
         {
             image: `${fitbook}`,
-            title: "Fitbook - www.cybermgumban.github.io",
+            title: "Fitbook - cybermgumban.github.io",
             type: "Web Application",
             description: "A social platform for people that are into fitness.",
             modules: [ "ReactJS", "Styled-Components", "CSS Grid/Flex", "Apollo", "Heroku deployed - GraphQL", "mLab/mongoDB Atlas" ]
