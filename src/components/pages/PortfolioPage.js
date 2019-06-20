@@ -43,7 +43,7 @@ const PortfolioPageWrapper = styled.div`
 
 const PortfolioPage = () => {
     return (
-        <PortfolioPageWrapper>
+        <PortfolioPageWrapper id="portfolio">
             <h1>Portfolio</h1>
             {FIXTURES.input.map((inputs, index) => (
                 <PortfolioItem 

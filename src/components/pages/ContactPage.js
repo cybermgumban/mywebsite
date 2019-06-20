@@ -44,7 +44,7 @@ const FormWrapper = styled.form`
 
 const ContactPage = () => {
     return (
-        <ContactPageWrapper>
+        <ContactPageWrapper id="contact">
             <h1>Contact</h1>
             <FormWrapper action="https://formspree.io/mgumban@cybermgumban.com" method="POST">
                 <input placeholder="Your Name..." name="name" required/>

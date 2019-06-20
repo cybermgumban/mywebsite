@@ -55,7 +55,7 @@ const ContentWrapper = styled.div`
 
 const ResumePage = () => {
     return (
-        <ResumePageWrapper>
+        <ResumePageWrapper id="resume">
             <h1>Resume</h1>
             <InsideWrapper>
                 <img className="Image1" src="http://lorempixel.com/310/800" alt="image1"/>
