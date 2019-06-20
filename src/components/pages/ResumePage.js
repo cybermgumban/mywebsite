@@ -5,13 +5,13 @@ const FIXTURES = [
     {
         type: "Software Development",
         skills: [
-            "ReactJS", "CSS Grid", "Styled-Components"
+            "ReactJS", "CSS Flex/Grid", "Styled-Components", "Apollo", "Heroku-GraphQL", "mongoDB Atlas"
         ]
     },
     {
         type: "Network and Voice over IP Engineer",
         skills: [
-            "Cisco Router and Switches", "Cisco/Fortinet Firewall", "CUCM, IMP, CUC, Expressway Servers", "PSTN", "IP Phones"
+            "Cisco Router and Switches", "Cisco/Fortinet Firewall", "Cisco Unified Communications", "PSTN", "IP Phones"
         ]
     }
 ]
@@ -28,7 +28,7 @@ const ResumePageWrapper = styled.div`
 
 const InsideWrapper = styled.div`
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 
     .Image1 {
         grid-column: 1;
@@ -44,11 +44,11 @@ const InsideWrapper = styled.div`
 const ContentWrapper = styled.div`
     grid-column: 2;
     grid-row: 1;
-    text-align: center;
+    text-align: justify;
     margin: 0 40px;
 
     & > div {
-        text-align: left;
+        text-align: justify;
         margin: 50px 0;
     }
 `
@@ -58,15 +58,15 @@ const ResumePage = () => {
         <ResumePageWrapper id="resume">
             <h1>Resume</h1>
             <InsideWrapper>
-                <img className="Image1" src="http://lorempixel.com/310/800" alt="image1"/>
-                <img className="Image2" src="http://lorempixel.com/310/800" alt="image2"/>
+                {/* <img className="Image1" src="http://lorempixel.com/310/800" alt="image1"/>
+                <img className="Image2" src="http://lorempixel.com/310/800" alt="image2"/> */}
                 <ContentWrapper>
-                    <h2>Marlon Gumban</h2>
-                    <h3>Software Developer</h3>
+                    {/* <h2>Marlon Gumban</h2>
+                    <h3>Software Developer</h3> */}
                     {FIXTURES.map((details, index) => (
                         <div key={index}>
-                            <p>Current Field: {details.type}</p>
-                            <p>Skills:</p>
+                            <p>Field: {details.type}</p>
+                            <p>Technologies Handled:</p>
                             <ul key={index}>
                                 {details.skills.map((detail) => (
                                     <li>{detail}</li>

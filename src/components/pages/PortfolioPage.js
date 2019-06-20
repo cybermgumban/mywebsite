@@ -3,31 +3,25 @@ import styled from 'styled-components';
 
 //components
 import PortfolioItem from '../organisms/PortfolioItem/PortfolioItem';
+import fitbook from '../assets/fitbook.PNG';
+import mywebsite from '../assets/mywebsite.PNG';
 
 const FIXTURES = {
     input: [
         {
-            image: "http://lorempixel.com/300/300",
+            image: `${mywebsite}`,
             title: "My website - www.cybermgumban.com",
             type: "Web Application",
-            description: "A website that showcase my portfolio, resume and a way to contact me.",
-            modules: [ "React", "Styled-Components", "CSS Grid" ]
+            description: "A website that showcase my portfolio's, resume and a way to contact me.",
+            modules: [ "ReactJS", "Styled-Components", "CSS Grid/Flex" ]
         },
         {
-            image: "http://lorempixel.com/300/300",
-            title: "Fitbook",
+            image: `${fitbook}`,
+            title: "Fitbook - www.cybermgumban.github.io",
             type: "Web Application",
             description: "A social platform for people that are into fitness.",
-            modules: [ "React", "Styled-Components", "CSS Grid" ]
+            modules: [ "ReactJS", "Styled-Components", "CSS Grid/Flex", "Apollo", "Heroku deployed - GraphQL", "mLab/mongoDB Atlas" ]
         },
-
-        {
-            image: "http://lorempixel.com/300/300",
-            title: "Fitbook",
-            type: "Mobile Application",
-            description: "A mobile app social platform for people that are into fitness.",
-            modules: [ "React-Native", "Styled-Components", "CSS Grid" ]
-        }
     ]
 }
 

@@ -15,7 +15,7 @@ const SocialWrapper = styled.div`
     display: flex;
     flex-direction: row;
     
-    & > img {
+    & > a,img {
         margin: 0 10px;
         height: 50px;
         width: 50px;
@@ -102,7 +102,7 @@ const MainPage = () => {
                 <div className="AboutMe">
                     <h2>About Me</h2>
                     <p>
-                        I am an upcoming Rockstar Software Developer that can take care of your Web and Mobile Application needs.
+                        I'm an upcoming Rockstar Software Developer that can take care of your Web Application needs.
                     </p>
                     <p>
                         Riding the waves of life with Passion and Perseverance, there is no obstacle we cannot overcome.
@@ -121,8 +121,8 @@ const MainPage = () => {
                     </p>
                 </div>
                 <SocialWrapper className="social">
-                    <img src={Linkedin} alt="linkedin"/>
-                    <img src={Twitter} alt="twitter"/>
+                    <a href="https://www.linkedin.com/in/marlongumban/"><img src={Linkedin} alt="linkedin"/></a>
+                    <a href="https://twitter.com/cybermgumban"><img src={Twitter} alt="twitter"/></a>
                 </SocialWrapper>
             </GridWrapper>
         </MainPageWrapper>

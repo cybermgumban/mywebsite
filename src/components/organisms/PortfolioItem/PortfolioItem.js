@@ -15,7 +15,10 @@ const ImageWrapper = styled.img`
     margin: 20px;
     border: 1px solid grey;
     border-radius: 10px;
-
+    max-width: 300px;
+    max-height: 300px;
+    height: 100%;
+    width: 100%
 `
 
 const PortfolioItem = (props) => {
